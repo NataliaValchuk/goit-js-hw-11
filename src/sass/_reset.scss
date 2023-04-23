@@ -50,25 +50,18 @@ body {
   line-height: 1.5;
 }
 
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style: none;
 }
-ul {
-  padding-inline-start: 0px;
-}
-.title {
-  white-space: nowrap;
-  font-size: 26px;
-  font-weight: 700;
-}
- 
-p.info-item {
+
+a:link,
+a:visited {
   text-decoration: none;
 }

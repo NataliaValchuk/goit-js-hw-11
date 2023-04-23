@@ -1,0 +1,9 @@
+.photo-card {
+  &__image {
+    display: block;
+    aspect-ratio: 14/9;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
