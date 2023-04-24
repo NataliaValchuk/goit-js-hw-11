@@ -31,7 +31,7 @@ const fetchImage = async (searchKeyWord, page) => {
       },
     };
 
-    const response = await axios.get('https://pixabay.com/api', requestConfig);
+    const response = await axios.get('https://pixabay.com/api/', requestConfig);
 
     return response.data;
   } catch (error) {
