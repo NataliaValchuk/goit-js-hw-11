@@ -12,23 +12,9 @@ body {
   line-height: 1.5;
 }
 
-ul,
-li,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
-}
-
-button {
-  border: none;
-  cursor: pointer;
+#search-box {
+  font: inherit;
+  padding: 8px;
+  max-width: 320px;
+  margin-bottom: 16px;
 }
